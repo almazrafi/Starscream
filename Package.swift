@@ -29,9 +29,10 @@ let package = Package(
         ],
         dependencies: [],
         targets: [
-            .target(name: "Starscream",
-                    path: "Sources",
-                    resources: [.copy("PrivacyInfo.xcprivacy")])
+            .target(
+                name: "Starscream",
+                path: "Sources"
+            )
         ]
 )
 
